@@ -66,4 +66,10 @@ box-shadow: 0px 5px 15px 5px #000000
   border-radius: 30px;
   font-weight: bold;
   background-color: wheat;
+  transition: background-color 0.5s, border-radius 0.5s;
+}
+.compra:hover{
+  cursor: pointer;
+  background-color: orange;
+  border-radius: 0;
 }

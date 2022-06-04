@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+/* import Componente1 from "./Componente1"; */
+import Product from "./Product";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Ciao sono un app nuova nuova
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>La nostra prima card</h1>
+      <div className="container">
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+
+      </div>
+    {/*   <Componente1 /> */}
     </div>
+    
   );
 }
 
